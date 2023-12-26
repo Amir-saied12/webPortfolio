@@ -1,0 +1,115 @@
+.wrapper{
+    padding-left: 285px;
+}
+.bg-img{
+    position: relative;
+}
+.bg-img .bg-imgs{
+    background-image: url(../../img/home-banner.png);
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100vw;
+    background-size: 37%;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-inline-end: 65px;
+}
+.bg-img .bg-imgs .icon-bg{
+    position: absolute;
+    right: -5%;
+    top: 44%;
+}
+.bg-img .bg-imgs .icon-bg li span i{
+    padding: 9px;
+    border-radius: 50%;
+    border: 1px solid #bababa;
+    margin: 5px 10px;
+    transition: all .5s;
+}
+.bg-img .bg-imgs .icon-bg::after{
+    content: "";
+    position: absolute;
+    bottom: -58px;
+    left: 32px;
+    right: 0;
+    width: 1px;
+    height: 60px;
+    background: #ffffffa6;
+    margin: auto;
+}
+.bg-img .bg-imgs .icon-bg li span i:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.bg-dark{
+    background: linear-gradient(177deg,#100E24 0%,#030211 190%);
+}
+.bg-img .txt{
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+.bg-img .txt h1{
+    font-size: 75px;
+    font-weight: 700;
+    font-family: inherit;
+    color: #fff;
+    line-height: .9;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.bg-img .txt h1 b{
+    font-weight: 700;
+}
+.m5tlef{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #af2676;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    font-family: inherit;
+}
+.bg-img .txt p{
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.bg-img .txt p span{
+    font-weight: 900;
+    font-size: 35px;
+}
+.bg-img .txt .btn-fx span i{
+    margin-inline-start: 13px;
+    rotate: 323deg;
+    font-size: 21px;
+}
+.bg-img .txt .btn-fx{
+    padding: 15px 35px;
+    border-radius: 0;
+    display: inline-block;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(90deg,#af2676 0%,#441b45 100%),#fff;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+}
+.bg-img .txt .contact-bg span i{
+    font-size: 18px;
+    padding-inline-end: 10px;
+}
+.bg-img .txt .contact-bg p{
+    padding-top: 40px;
+    font-weight: 600;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.bg-img .txt .contact-bg p:nth-child(2){
+    padding-inline-start: 24px;
+}
