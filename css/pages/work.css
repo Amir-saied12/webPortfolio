@@ -1,0 +1,14 @@
+.work{
+    background-color: #100e24;
+}
+.work .img-work{
+    width: 40%;
+}
+.work .txt-work{
+    width: 50%;
+}
+.work .txt-work i{
+    rotate: 315deg;
+    font-size: 23px;
+    font-weight: 600;
+}
