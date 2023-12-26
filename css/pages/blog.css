@@ -1,0 +1,22 @@
+.blog{
+    background:
+    linear-gradient(177deg,
+    #100E24 0%,#030211 190%);
+}
+.blog .txt h2{
+    font-size: 21px;
+    font-weight: 600;
+}
+.blog .txt h6{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.blog .border-bottom{
+    cursor: pointer;
+}
+.blog .border-bottom img{
+    transition: all .5s;
+}
+.blog .border-bottom:hover img{
+    transform: scale(1.05);
+}
