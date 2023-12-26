@@ -1,0 +1,40 @@
+.experience{
+    background: linear-gradient(270.16deg,
+    #441b45 5.74%,
+    #af2676 92.05%);
+}
+.experience .heading a{
+    background-color: #0d0b1c;
+    color: white;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 0;
+    transition: all .4s;
+}
+.experience .heading a:hover{
+    background-color: white;
+    color: #0d0b1c;
+    border: none;
+}
+.experience .heading a:hover i{
+    color: black;
+}
+.experience .heading p{
+    font-size: 18px;
+    margin: 18px 0;
+    display: inline-block;
+}
+.experience .list-2{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.experience .list-2 h3{
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.bot-bar{
+    border-bottom: 1px solid rgba(195, 195, 195, 0.187);
+}
