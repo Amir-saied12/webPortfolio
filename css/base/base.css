@@ -1,0 +1,52 @@
+@import url(./font.css);
+body{
+    text-transform: capitalize;
+}
+img{
+    width: 100%;
+    display: block;
+}
+h1, h2, h3, h4, h5, h6{
+    color: white;
+    font-family: 'IBMPlex-bold',sans-serif;
+}
+p, article, button, span{
+    color: white;
+    font-family: 'IBMPlex-regular'sans-serif;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(45, 45, 45);
+}
+.section{
+    position: relative;
+    padding: 80px 0;
+}
+/*      */
+.heading{
+    margin: 25px 0;
+}
+.heading h2{
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    margin-bottom: 27px;
+}
+.heading h6{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+}
+.bord{
+    padding-top: 40px;
+    border-top: 1px solid rgba(204, 204, 204, 0.288);
+}
+.btm-txt{
+    margin-bottom: 100px;
+}
