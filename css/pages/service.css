@@ -1,0 +1,31 @@
+.service{
+    background:
+     linear-gradient(177deg,
+     #100E24 0%,#030211 190%);
+}
+.service .mt8yer{
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+}
+.service .mt8yer p{
+    font-size: 14px;
+    font-weight: 100;
+    padding-inline-start: 46px;
+    line-height: 1.8;
+}
+.service .mt8yer span i{
+    font-size: 10px;
+    margin-inline-end: 25px;
+    margin-bottom: 29px;
+}
+.service .bg{
+    background:
+    linear-gradient(329deg,
+    #100E24 190%,#100E24 190%)
+}
+.service .accordion-body{
+    background:
+    linear-gradient(329deg,
+    #100E24 190%,#100E24 190%)
+}
