@@ -1,0 +1,86 @@
+.header2{
+    background-color: #100e24;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 285px;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    transition: ease all .35s;
+}
+.header2 li span i{
+    background-color: white;
+    padding: 13px;
+    border-radius: 50%;
+    color: black;
+}
+.header2 .logo h3 a{
+    color: white;
+    display: inline-block;
+    padding: 35px 15px 30px;
+    font-size: 33px;
+    font-family: 'IBMPlex-bold';
+}
+.header2 .list-head ul li a{
+    padding: 10px 1px;
+    position: relative;
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFF;
+    cursor: pointer;
+}
+.header2 .list-head ul{
+    padding-inline-start: 15px;
+}
+.header2 .list-social-head li{
+    width: 18%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.header2 .list-social-head li i{
+    transition: all .5s;
+}
+.header2 .list-social-head li i:hover{
+    color: #FFF;
+    background-color: rgb(244, 31, 67);
+}
+/* 
+                         */
+
+.header{
+   background-color: #100e24;
+}
+.header .nav-item a{
+    padding: 10px 1px;
+    position: relative;
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFF;
+    cursor: pointer;
+}
+.header li span i{
+    background-color: white;
+    padding: 13px;
+    border-radius: 50%;
+    color: black;
+}
+.header .navbar-brand{
+    color: white;
+    font-size: 33px;
+    font-family: 'IBMPlex-bold';
+}
+.header .list-social-head li{
+    width: 18%;
+    cursor: pointer;
+}
+.header .list-social-head li i{
+    transition: all .5s;
+}
+.header .list-social-head li i:hover{
+    color: #FFF;
+    background-color: rgb(244, 31, 67);
+}
