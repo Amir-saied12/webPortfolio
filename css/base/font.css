@@ -1,0 +1,10 @@
+/* first font */
+@font-face {
+    font-family:'IBMPlex-bold'sans-serif  ;
+    src: url(../font/IBMPlexSans-Bold.ttf);
+}
+/* last font */
+@font-face {
+    font-family:'IBMPlex-regular'sans-serif ;
+    src: url(../font/IBMPlexSans-Regular.ttf);
+}
