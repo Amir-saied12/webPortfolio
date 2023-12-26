@@ -1,0 +1,59 @@
+.about{
+    background-color: #100e24;
+}
+.about .item-about-1 .item-bottom p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.about .item-about-1 .item-bottom p span{
+font-size: 20px;
+font-weight: 900;
+}
+.about .item-about-1 .item-bottom h2{
+font-weight: 700;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -.05em;
+    text-transform: uppercase;
+    background: linear-gradient(90deg,#af2676 0%,#441b45 100%),#fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 15px 0;
+}
+.about .contact-bio h5{
+    margin: 16px 0;
+}
+.about .contact-bio h5 span{
+    padding: 0 10px;
+}
+.about .exp h3 span{
+    background: linear-gradient(90deg,#af2676 0%,#441b45 100%),#fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 41px;
+    font-weight: 800;
+}
+.about .exp p span{
+    background: linear-gradient(90deg,#af2676 0%,#441b45 100%),#fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.about blockquote{
+    border-radius: 25px;
+    background-color: rgb(164 164 164 / 27%);
+}
+.about blockquote span i{
+    font-size: 80px;
+    color: rgba(166, 166, 166, 0.518);
+}
+.about blockquote span{
+    width: 18.5%;
+}
+.about blockquote p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
