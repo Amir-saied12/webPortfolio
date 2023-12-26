@@ -1,0 +1,27 @@
+/*vendor*/
+@import url(./vendor/animate.css);
+@import url(./vendor/bootstrap.min.css);
+
+/*base*/
+@import url(./base/base.css);
+
+/*component*/
+@import url(./component/btns.css);
+
+/*layout*/
+@import url(./layout/header.css);
+@import url(./layout/footer.css);
+
+/*responsive*/
+@import url(./responsive/rsponsive.css);
+
+/*pages*/
+@import url(./pages/bg.css);
+@import url(./pages/about.css);
+@import url(./pages/experience.css);
+@import url(./pages/service.css);
+@import url(./pages/work.css);
+@import url(./pages/testimonial.css);
+@import url(./pages/blog.css);
+@import url(./pages/contact.css);
+/*                                  */
